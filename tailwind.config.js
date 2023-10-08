@@ -9,6 +9,10 @@ module.exports = {
       },
       fontFamily: {
         'kaleko': ['Kaleko 105'],
+        'nunito': ['Nunito Sans'],
+
+
+
       },
       backgroundImage: {
         'videoBg': "url('./img/video.png')",
