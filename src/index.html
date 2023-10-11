@@ -5,41 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Related Motion</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;1,6..12,200;1,6..12,400;1,6..12,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../dist/output.css">
+
+   
 
 </head>
 
-<body class="overflow-y-auto">
+
+<body class=" min-h-screen">
 
     <!-- header Begin -->
+ 
+    <div class="bg-main-bg p-4 flex items-center justify-between">
+        <img class="w-16 h-12" src="../img/Layer_x0020_1.svg" alt="Logo" />
+    
+        <!-- Hamburger menu for sm screens and smaller -->
+        <div class="sm:hidden">
+            <button class="text-white font-kaleko text-lg font-semibold" type="button" id="menu-id" onclick="toggleModal()">
+                
+                <span class="sr-only">MENU</span>
 
-    <div class="flex p-[10px] items-center justify-center gap-[10px] shrink-0 h-[75px]  bg-main-bg ">
-
-        <div class="flex items-center left-[75px] top-[7px] absolute gap-[1198px]">
-
-            <img class="w-[77.033px] h-[60.671px] " src="../img/Layer_x0020_1.svg" />
-           <a href="menu.html"> <p class="text-[#FFFFFF] font-kaleko text-[20px] font-[700]"> MENU</p></a>
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+            </button>
+        </div>
+    
+        <!-- Navigation links for md screens and larger -->
+        <div class="hidden sm:flex items-center space-x-4">
+          <a href="#"> <p class="text-white font-kaleko text-lg font-semibold" onclick="toggleModal()">Menu</p></a>
+            <!-- Add more navigation links as needed -->
         </div>
     </div>
-    <!--/ header Begin -->
+    
+    <!-- Mobile navigation menu (hidden by default) -->
+    <div id="mobile-menu" class="sm:hidden hidden bg-main-bg">
+        <a href="menu.html" class="block text-white font-kaleko text-lg font-semibold p-2">Home</a>
+        <!-- Add more mobile navigation links as needed -->
+    </div>
+
+    
 
 
-    <div   class="flex  h-[520px]  p-[10px] justify-center items-center gap-[10px] relative w-full h-screen">
-       <video autoplay muted loop poster="" class="absolute top-0 left-0 w-full h-full object-cover">
+
+    <div   class="flex  p-[10px] justify-center items-center gap-[10px] relative w-full h-screen">
+       <video autoplay muted loop poster="../img/video-img.png" class="absolute top-0 left-0 w-full h-full object-cover">
           <source src="../img/Related Motion.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
-        <div class="absolute inset-0 flex gap-[10px] items-center justify-center">
-            <div class="flex flex-col just-center items-center gap-[10px]">
-                <img class="w-[166.957px] h-[128.134px] shrink-0" src="../img/RM.svg"/> 
-            </div>
+        <div class="absolute inset-0 flex flex-col sm:flex-row m-[50px]  gap-[10px] items-center justify-center">
+    <div class="flex just-center items-center gap-[10px]">
+        <img class="w-[166.957px] h-[128.134px] shrink-0" src="../img/RM.svg" />
+    </div>
 
-            <div class="flex just-center items-center gap-[10px]">
-                <image src="../img/RELATED MOTION.png" >
-                
-            </div>
-           
-        </div>
+    <div class="flex just-center items-center gap-[10px]">
+        <img src="../img/RELATED MOTION.png" alt="Related Motion" />
+    </div>
+</div>
+
       </div>
 
 
@@ -49,9 +76,9 @@
 
 
   <!--footer -->
-    <footer class="flex just-center items-center   gap-[5px]">
+    <footer class="flex flex-col sm:flex-row  just-center items-center   gap-[1px] sm:gap-[5px]">
         <div
-            class="flex w-[374px] h-[81px] px-[85px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
+            class="flex w-full h-[81px] lg:px-[85px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
             <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related
                 motion
                 services</p>
@@ -59,14 +86,14 @@
         </div>
 
         <div
-            class="flex w-[375px] h-[81px] px-[97px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
+            class="flex w-full h-[81px] lg:px-[97px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
             <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related TV &
                 Commercial</p>
 
         </div>
 
         <div
-            class="flex w-[375px] h-[81px] px-[84px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
+            class="flex w-full h-[81px] lg:px-[84px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
             <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related
                 Events
                 & Concerts
@@ -74,19 +101,68 @@
 
         </div>
 
-        <div
-            class="flex w-[374px] h-[81px] px-[118px] py-[18px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
-            <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related Films
-                &
-                Documentaries
-            </p>
+      
 
-        </div>
+        <div
+        class="flex w-full h-[81px] lg:px-[84px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
+        <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related Films
+            &
+            Documentaries
+        </p>
+
+    </div>
 
 
     </footer>
 
+    <!-- modal -->
+    <div style="background-image: url(../img/menu.jpeg);" class="hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="modal-id">
+        <a href="index.html"> <button type="button" class="-m-2.5 rounded-md p-2.5 text-white">
+             <span class="sr-only">Close menu</span>
+             <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+             </svg>
+           </button>
+ 
+         <div class="flex items-end gap-[30px]">
+             <div class="flex p-[10px] items-start gap-[10]">
+                 <img class="w-[304px] h-[377px]" src="../img/menu-p.png" />
+ 
+             </div>
+              <ul class="flex w-[140px] flex-col just-center items-start">
+                 <a href="index.html">  <li class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">Home</li></a>
+                 <a href="#.html">  <li class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">WORK</li>
+                     <a href="services.html"> <li class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">SERVICES</li></a>
+                 <a href="about.html"><li class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase" >ABOUT US</li></a>
+                 <a href="contact.html">  <li class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">CONTACT US</li></a>  
+             </ul>
+ 
+             
+  
+         </div>
+         <div class="flex p-[10px] justify-center items-center gap-[10px]">
+             <p class="text-white text-justify font-[Nunito-Sans] text-[14px] font-[400] " >We are excited by our remarkable expansion into new frontiers. Starting out as a small brand in South Africa and now having a stronghold through West Africa. This bold steps are a testament to our unwavering commitment to growth and excellence.
+ 
+                 Join Forces with Us for Media Excellence.<br>
+                 
+                <span class="text-white  font-[Nunito-Sans] text-[17px] font-[800] uderline "> Click here</span> </p>
+ 
+         </div>
+ 
+     </div>
 
+    <div class="hidden opacity-43 fixed inset-0 z-40 bg-black" id="modal-id-backdrop"></div>
+    <script type="text/javascript">
+        function toggleModal() {
+           var modal = document.getElementById("modal-id");
+            var backdrop = document.getElementById("modal-id-backdrop");
+            
+           modal.classList.toggle("hidden");
+            modal.classList.toggle("flex");
+            backdrop.classList.toggle("hidden");
+            backdrop.classList.toggle("flex");
+        }
+    </script>
 </body>
 
 </html>
