@@ -11,9 +11,30 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;1,6..12,200;1,6..12,400;1,6..12,500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../dist/output.css">
+        <script src="https://cdn.tailwindcss.com"></script>
 
-
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            'main-bg': '#000'
+    
+                        },
+                        fontFamily: {
+                            'kaleko': ['Kaleko 105'],
+                            'nunito': ['Nunito Sans'],
+    
+    
+    
+                        },
+                        backgroundImage: {
+                            'videoBg': "url('./img/video.png')",
+                        }
+                    },
+                }
+            }
+        </script>
 
 </head>
 
@@ -23,7 +44,7 @@
     <!-- header Begin -->
 
     <div class="bg-main-bg p-4 flex items-center justify-between">
-       <a href="index.html"> <img class="w-16 h-12" src="../img/Layer_x0020_1.svg" alt="Logo" /></a>
+        <a href="index.html"> <img class="w-16 h-12" src="../img/Layer_x0020_1.svg" alt="Logo" /></a>
 
         <!-- Hamburger menu for sm screens and smaller -->
         <div class="sm:hidden">
@@ -87,25 +108,32 @@
     <footer class="flex flex-col sm:flex-row  just-center items-center   gap-[1px] sm:gap-[5px]">
         <div
             class="flex w-full h-[81px] lg:px-[85px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
-           <a href="services.html"> <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related
-                motion
-                services</p></a>
+            <a href="services.html">
+                <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related
+                    motion
+                    services</p>
+            </a>
 
         </div>
 
         <div
             class="flex w-full h-[81px] lg:px-[97px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
-            <a href="services.html">  <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related TV &
-                Commercial</p></a>
+            <a href="services.html">
+                <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related
+                    TV &
+                    Commercial</p>
+            </a>
 
         </div>
 
         <div
             class="flex w-full h-[81px] lg:px-[84px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
-            <a href="services.html"> <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related
-                Events
-                & Concerts
-            </p></a>
+            <a href="services.html">
+                <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related
+                    Events
+                    & Concerts
+                </p>
+            </a>
 
         </div>
 
@@ -113,10 +141,13 @@
 
         <div
             class="flex w-full h-[81px] lg:px-[84px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
-            <a href="services.html"> <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related Films
-                &
-                Documentaries
-            </p></a>
+            <a href="services.html">
+                <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related
+                    Films
+                    &
+                    Documentaries
+                </p>
+            </a>
 
         </div>
 
@@ -124,9 +155,11 @@
     </footer>
 
     <!-- modal -->
-    <div style="background-image: url(../img/menu.jpeg);" class=" hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none  flex py-[55px] px-[51px] items-start gap-[10px] "
+    <div style="background-image: url(../img/menu.jpeg);"
+    class=" hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none  flex py-[55px] px-[51px] items-start gap-[10px] "
     id="modal-id">
-    <a href="index.html"> <button type="button" class="-m-2.5 rounded-md p-2.5 text-white">
+     <button type="button" class="-m-2.5 rounded-md p-2.5 text-white" id="menu-id"
+        onclick="toggleModal()">
             <span class="sr-only">Close menu</span>
             <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                 aria-hidden="true">
@@ -141,7 +174,7 @@
                     <img class="w-[154px] h-[190px]" src="../img/ceoN.jpeg" />
 
                     <div class="flex items-center gap-[236px]">
-                         
+
                     </div>
 
 
@@ -153,25 +186,23 @@
                             Home
                         </li>
                     </a>
-                  <!--   <a href="#.html">
+                    <!--   <a href="#.html">
+                      <li class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">
+                          WORK
+                      </li> -->
+                    <a href="services.html">
                         <li class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">
-                            WORK
-                        </li> -->
-                        <a href="services.html">
-                            <li
-                                class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">
-                                SERVICES</li>
-                        </a>
-                        <!-- <a href="about.html">
-                            <li
-                                class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">
-                                ABOUT US</li>
-                        </a> -->
-                        <a href="contact.html">
-                            <li
-                                class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">
-                                CONTACT US</li>
-                        </a>
+                            SERVICES</li>
+                    </a>
+                    <a href="about.html">
+                          <li
+                              class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">
+                              ABOUT US</li>
+                      </a> 
+                    <a href="contact.html">
+                        <li class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">
+                            CONTACT US</li>
+                    </a>
                 </ul>
 
 
@@ -181,15 +212,16 @@
 
 
 
-                <p class="text-white  sm:w-[536px] text-justify font-[Nunito-Sans] text-[14px] font-[400] ">We are excited by our
-                    remarkable expansion into new frontiers. Starting out as a small brand in South Africa and now
-                    having a stronghold through West Africa. This bold steps are a testament to our unwavering
-                    commitment to growth and excellence.
+            <p class="text-white  sm:w-[536px] text-justify font-[Nunito-Sans] text-[14px] font-[400] ">We are
+                excited by our
+                remarkable expansion into new frontiers. Starting out as a small brand in South Africa and now
+                having a stronghold through West Africa. This bold steps are a testament to our unwavering
+                commitment to growth and excellence.
 
-                    Join Forces with Us for Media Excellence.<br>
+                Join Forces with Us for Media Excellence.<br>
 
-                    <span class="text-white  font-[Nunito-Sans] text-[17px] font-[800] uderline "> Click here</span>
-                </p>
+                <span class="text-white  font-[Nunito-Sans] text-[17px] font-[800] uderline "> Click here</span>
+            </p>
 
 
         </div>
@@ -199,7 +231,7 @@
 </div>
 
 
-</div>
+    </div>
 
     <div class="hidden opacity-43 fixed inset-0 z-40 bg-black" id="modal-id-backdrop"></div>
     <script type="text/javascript">
