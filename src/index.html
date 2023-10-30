@@ -11,32 +11,32 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;1,6..12,200;1,6..12,400;1,6..12,500&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-        <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
-        <script>
-            tailwind.config = {
-                theme: {
-                    extend: {
-                        colors: {
-                            'main-bg': '#000'
-    
-                        },
-                        fontFamily: {
-                            'kaleko': ['Kaleko 105'],
-                            'nunito': ['Nunito Sans'],
-    
-    
-    
-                        },
-                        backgroundImage: {
-                            'videoBg': "url('./img/video.png')",
-                        }
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'main-bg': '#000'
+
                     },
-                }
+                    fontFamily: {
+                        'kaleko': ['Kaleko 105'],
+                        'nunito': ['Nunito Sans'],
+
+
+
+                    },
+                    backgroundImage: {
+                        'videoBg': "url('./img/video.png')",
+                    }
+                },
             }
-        </script>
+        }
+    </script>
 
 </head>
 
@@ -66,7 +66,7 @@
         <!-- Navigation links for md screens and larger -->
         <div class="hidden sm:flex items-center space-x-4">
             <a href="#">
-                <p class="text-white font-kaleko text-lg font-semibold" onclick="toggleModal()">Menu</p>
+                <p class="text-white font-kaleko text-lg font-semibold" onclick="toggleModal()">MENU</p>
             </a>
             <!-- Add more navigation links as needed -->
         </div>
@@ -158,22 +158,48 @@
 
     <!-- modal -->
     <div style="background-image: url(../img/menu.jpeg);"
-    class=" hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none  flex py-[55px] px-[51px] items-start gap-[10px] "
-    id="modal-id">
-     <button type="button" class="-m-2.5 rounded-md p-2.5 text-white" id="menu-id"
-        onclick="toggleModal()">
+        class=" hidden  overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none  flex py-[55px] md:px-[51px] items-start gap-[10px] "
+        id="modal-id">
+        <button type="button" class="-m-2.5 rounded-md p-2.5 text-white" id="menu-id" onclick="toggleModal()">
             <span class="sr-only">Close menu</span>
             <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                 aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
         </button>
-        <div class="flex w-[80%] m-auto flex-col items-center  gap-[12px]">
-            <div class="flex items-end gap-[31px]">
+        <div class="flex w-[70%]  m-auto flex-col items-start  gap-[12px]">
+            <div class="flex  gap-[31px]">
 
-                <div class="max-[639px]:hidden flex flex-col items-start gap-[11px]">
+                <div class="max-[640px]:hidden flex flex-col items-start gap-[11px]">
 
-                    <img class="w-[154px] h-[190px]" src="../img/ceoN.jpeg" />
+                    <img id="slide-1" class="w-full" src="../img/menu-image.png" />
+                    <img id="slide-2" class="hidden w-full" src="../img/menu-imaged.png" />
+                    <div class="flex justify-between w-full">
+
+                        <div>
+                            <p id="text-1"
+                                class=" text-white font-[Kaleko 105] font-[400]  text-[12px] leading-[0.36px]">HIGHLIGHT
+                                1/2</p>
+                            <p id="text-2"
+                                class="hidden text-white font-[Kaleko 105] font-[400]  text-[12px] leading-[0.36px]">
+                                HIGHLIGHT 2/2</p>
+
+
+                        </div>
+
+                        <div>
+
+                            <img onclick="toggleSlide()" src="../img/Arrow 3.png" />
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+
 
                     <div class="flex items-center gap-[236px]">
 
@@ -184,45 +210,88 @@
 
                 <ul class="flex flex-col  w-[140px] justify-center gap-[30px] items-start">
                     <a href="index.html">
-                        <li class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">
+                        <li class="text-white font-[Nunito Sans] text-[20px] font-[700] leading-[28px] uppercase">
                             Home
                         </li>
                     </a>
-                      <a href="works.html">
-                      <li class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">
-                          WORK
-                      </li> 
-                    <a href="services.html">
-                        <li class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">
-                            SERVICES</li>
-                    </a>
-                    <a href="about.html">
-                          <li
-                              class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">
-                              ABOUT US</li>
-                      </a> 
-                    <a href="contact.html">
-                        <li class="text-white font-[Nunito-Sans] text-[20px] font-[900] leading-[28px] uppercase">
-                            CONTACT US</li>
-                    </a>
+                    <a href="works.html">
+                        <li class="text-white font-[Nunito Sans] text-[20px] font-[700] leading-[28px] uppercase">
+                            WORK
+                        </li>
+                        <a href="services.html">
+                            <li class="text-white font-[Nunito Sans] text-[20px] font-[700] leading-[28px] uppercase">
+                                SERVICES</li>
+                        </a>
+                        <a href="about.html">
+                            <li class="text-white font-[Nunito Sans] text-[20px] font-[700] leading-[28px] uppercase">
+                                ABOUT US</li>
+                        </a>
+                        <a href="contact.html">
+                            <li class="text-white font-[Nunito Sans] text-[20px] font-[700] leading-[28px] uppercase">
+                                CONTACT US</li>
+                        </a>
+
+
+                        <div class="sm:hidden flex flex-col items-start gap-[11px]">
+
+                            <img id="slide-1m" class="w-full" src="../img/menu-image.png" />
+                            <img id="slide-2m" class="hidden w-full" src="../img/menu-imaged.png" />
+                            <div class="flex justify-between w-full">
+            
+                                <div>
+                                    <p id="text-1m" class=" text-white font-[Kaleko 105] font-[400]  text-[12px] leading-[0.36px]">
+                                        HIGHLIGHT 1/2</p>
+                                    <p id="text-2m"
+                                        class="hidden text-white font-[Kaleko 105] font-[400]  text-[12px] leading-[0.36px]">
+                                        HIGHLIGHT 2/2</p>
+            
+            
+                                </div>
+            
+                                <div>
+            
+                                    <img onclick="toggleSlide2()" src="../img/Arrow 3.png" />
+            
+            
+            
+                                </div>
+            
+            
+            
+                            </div>
+            
+            
+            
+                            <div class="flex items-center gap-[236px]">
+            
+                            </div>
+            
+            
+                        </div>
+
                 </ul>
+
+
+
 
 
 
             </div>
 
+            
 
 
 
-            <p class="text-white  sm:w-[536px] text-justify font-[Nunito-Sans] text-[14px] font-[400] ">We are
+
+            <p class="text-white  md:w-[536px] text-start font-[Nunito Sans] text-[14px] font-[400] ">We are
                 excited by our
                 remarkable expansion into new frontiers. Starting out as a small brand in South Africa and now
                 having a stronghold through West Africa. This bold steps are a testament to our unwavering
-                commitment to growth and excellence.
+                commitment to growth and excellence. <br><br>
 
                 Join Forces with Us for Media Excellence.<br>
 
-                <span class="text-white  font-[Nunito-Sans] text-[17px] font-[800] uderline "> Click here</span>
+                <span class="text-white  font-[Nunito-Sans] text-[12px] md:text-[17px] font-[800] underline "> Click here</span>
             </p>
 
 
@@ -230,13 +299,46 @@
 
 
 
-</div>
+    </div>
 
 
     </div>
 
     <div class="hidden opacity-43 fixed inset-0 z-40 bg-black" id="modal-id-backdrop"></div>
     <script type="text/javascript">
+        function toggleSlide() {
+            var slider = document.getElementById("slide-1");
+            var slider2 = document.getElementById("slide-2");
+            var text = document.getElementById("text-1");
+            var text2 = document.getElementById("text-2");
+
+
+            text.classList.toggle("hidden");
+            text.classList.toggle("flex");
+            text2.classList.toggle("hidden");
+            text2.classList.toggle("flex");
+            slider.classList.toggle("hidden");
+            slider.classList.toggle("flex");
+            slider2.classList.toggle("flex");
+            slider2.classList.toggle("hidden");
+        }
+
+        function toggleSlide2() {
+            var sliderm = document.getElementById("slide-1m");
+            var slider2m = document.getElementById("slide-2m");
+            var textm = document.getElementById("text-1m");
+            var text2m = document.getElementById("text-2m");
+
+
+            textm.classList.toggle("hidden");
+            textm.classList.toggle("flex");
+            text2m.classList.toggle("hidden");
+            text2m.classList.toggle("flex");
+            sliderm.classList.toggle("hidden");
+            sliderm.classList.toggle("flex");
+            slider2m.classList.toggle("flex");
+            slider2m.classList.toggle("hidden");
+        }
         function toggleModal() {
             var modal = document.getElementById("modal-id");
             var backdrop = document.getElementById("modal-id-backdrop");
