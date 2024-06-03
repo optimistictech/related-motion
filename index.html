@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Related Motion</title>
+       <link href="../img/favicon.ico" rel="icon">
+
+
+    <meta name="description" content="Explore the services of Related Motion - Your gateway to exceptional media excellence. Join us for a journey through TV & Commercial, Events & Concerts, Films & Documentaries.">
+    <meta name="keywords" content="Related Motion, media excellence, TV & Commercial, Events & Concerts, Films & Documentaries">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://relatedmotion.com/">
+    <meta property="og:title" content="Related Motion">
+    <meta property="og:description" content="Explore the services of Related Motion - Your gateway to exceptional media excellence. Join us for a journey through TV & Commercial, Events & Concerts, Films & Documentaries.">
+    <meta property="og:image" content="https://relatedmotion.com/img/relatedLogo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://relatedmotion.com/">
+    <meta property="twitter:title" content="Related Motion">
+    <meta property="twitter:description" content="Explore the services of Related Motion - Your gateway to exceptional media excellence. Join us for a journey through TV & Commercial, Events & Concerts, Films & Documentaries.">
+    <meta property="twitter:image" content="https://relatedmotion.com/img/relatedLogo.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;1,6..12,200;1,6..12,400;1,6..12,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'main-bg': '#000'
+
+                    },
+                    fontFamily: {
+                        'kaleko': ['Kaleko 105'],
+                        'nunito': ['Nunito Sans'],
+
+
+
+                    },
+                    backgroundImage: {
+                        'videoBg': "url('./img/video.png')",
+                    }
+                },
+            }
+        }
+    </script>
+
+</head>
+
+
+<body class=" min-h-screen">
+
+    <!-- header Begin -->
+
+    <div class="bg-main-bg p-4 flex items-center justify-between">
+        <a href="index.html"> <img class="w-16 h-12" src="../img/Layer_x0020_1.svg" alt="Logo" /></a>
+
+        <!-- Hamburger menu for sm screens and smaller -->
+        <div class="sm:hidden">
+            <button class="text-white font-kaleko text-lg font-semibold" type="button" id="menu-id"
+                onclick="toggleModal()">
+
+                <span class="sr-only">MENU</span>
+
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Navigation links for md screens and larger -->
+        <div class="hidden sm:flex items-center space-x-4">
+            <a href="#">
+                <p class="text-white font-kaleko text-lg font-semibold" onclick="toggleModal()">MENU</p>
+            </a>
+            <!-- Add more navigation links as needed -->
+        </div>
+    </div>
+
+    <!-- Mobile navigation menu (hidden by default) -->
+    <div id="mobile-menu" class="sm:hidden hidden bg-main-bg">
+        <a href="menu.html" class="block text-white font-kaleko text-lg font-semibold p-2">Home</a>
+        <!-- Add more mobile navigation links as needed -->
+    </div>
+
+
+
+
+
+    <div class="flex  p-[10px] justify-center items-center gap-[10px] relative w-full h-screen">
+        <video autoplay muted loop poster="../img/video-img.png"
+            class="absolute top-0 left-0 w-full h-full object-cover">
+            <source src="../img/Related Motion.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="absolute inset-0 flex flex-col sm:flex-row m-[50px]  gap-[10px] items-center justify-center">
+            <div class="flex just-center items-center gap-[10px]">
+                <img class="w-[166.957px] h-[128.134px] shrink-0" src="../img/RM.svg" />
+            </div>
+
+            <div class="flex just-center items-center gap-[10px]">
+                <img src="../img/RELATED MOTION.png" alt="Related Motion" />
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    </div>
+
+
+    <!--footer -->
+    <footer class="flex flex-col sm:flex-row  just-center items-center   gap-[1px] sm:gap-[5px]">
+        <div
+            class="flex w-full h-[81px] lg:px-[85px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
+            <a href="services.html">
+                <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related
+                    motion
+                    services</p>
+            </a>
+
+        </div>
+
+        <div
+            class="flex w-full h-[81px] lg:px-[97px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
+            <a href="services.html">
+                <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related
+                    TV &
+                    Commercial</p>
+            </a>
+
+        </div>
+
+        <div
+            class="flex w-full h-[81px] lg:px-[84px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
+            <a href="services.html">
+                <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related
+                    Events
+                    & Concerts
+                </p>
+            </a>
+
+        </div>
+
+
+
+        <div
+            class="flex w-full h-[81px] lg:px-[84px] py-[27px] justify-center items-center gap-[10px] border-solid	 border-1 border-black bg-main-bg">
+            <a href="services.html">
+                <p class="text-[#FFF] text-center font-kaleko text-[16px] font-[700] leading-[18px] uppercase">Related
+                    Films
+                    &
+                    Documentaries
+                </p>
+            </a>
+
+        </div>
+
+
+    </footer>
+
+    <!-- modal -->
+    <div style="background-image: url(../img/menu.jpeg);"
+        class=" hidden  overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none  flex py-[55px] md:px-[51px] items-start gap-[10px] "
+        id="modal-id">
+        <button type="button" class="-m-2.5 rounded-md p-2.5 text-white" id="menu-id" onclick="toggleModal()">
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+        <div class="flex w-[70%]  m-auto flex-col items-start  gap-[12px]">
+            <div class="flex  gap-[31px]">
+
+                <div class="max-[640px]:hidden flex flex-col items-start gap-[11px]">
+
+                    <img id="slide-1" class="w-full" src="../img/menu-image.png" />
+                    <img id="slide-2" class="hidden w-full" src="../img/menu-imaged.png" />
+                    <div class="flex justify-between w-full">
+
+                        <div>
+                            <p id="text-1"
+                                class=" text-white font-[Kaleko 105] font-[400]  text-[12px] leading-[0.36px]">HIGHLIGHT
+                                1/2</p>
+                            <p id="text-2"
+                                class="hidden text-white font-[Kaleko 105] font-[400]  text-[12px] leading-[0.36px]">
+                                HIGHLIGHT 2/2</p>
+
+
+                        </div>
+
+                        <div>
+
+                            <img onclick="toggleSlide()" src="../img/Arrow 3.png" />
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                    <div class="flex items-center gap-[236px]">
+
+                    </div>
+
+
+                </div>
+
+                <ul class="flex flex-col  w-[140px] justify-center gap-[30px] items-start">
+                    <a href="index.html">
+                        <li class="text-white font-[Nunito Sans] text-[20px] font-[700] leading-[28px] uppercase">
+                            Home
+                        </li>
+                    </a>
+                    <a href="works.html">
+                        <li class="text-white font-[Nunito Sans] text-[20px] font-[700] leading-[28px] uppercase">
+                            WORK
+                        </li>
+                        <a href="services.html">
+                            <li class="text-white font-[Nunito Sans] text-[20px] font-[700] leading-[28px] uppercase">
+                                SERVICES</li>
+                        </a>
+                        <a href="about.html">
+                            <li class="text-white font-[Nunito Sans] text-[20px] font-[700] leading-[28px] uppercase">
+                                ABOUT US</li>
+                        </a>
+                        <a href="contact.html">
+                            <li class="text-white font-[Nunito Sans] text-[20px] font-[700] leading-[28px] uppercase">
+                                CONTACT US</li>
+                        </a>
+
+
+                        <div class="sm:hidden flex flex-col items-start gap-[11px]">
+
+                            <img id="slide-1m" class="w-full" src="../img/menu-image.png" />
+                            <img id="slide-2m" class="hidden w-full" src="../img/menu-imaged.png" />
+                            <div class="flex justify-between w-full">
+            
+                                <div>
+                                    <p id="text-1m" class=" text-white font-[Kaleko 105] font-[400]  text-[12px] leading-[0.36px]">
+                                        HIGHLIGHT 1/2</p>
+                                    <p id="text-2m"
+                                        class="hidden text-white font-[Kaleko 105] font-[400]  text-[12px] leading-[0.36px]">
+                                        HIGHLIGHT 2/2</p>
+            
+            
+                                </div>
+            
+                                <div>
+            
+                                    <img onclick="toggleSlide2()" src="../img/Arrow 3.png" />
+            
+            
+            
+                                </div>
+            
+            
+            
+                            </div>
+            
+            
+            
+                            <div class="flex items-center gap-[236px]">
+            
+                            </div>
+            
+            
+                        </div>
+
+                </ul>
+
+
+
+
+
+
+            </div>
+
+            
+
+
+
+
+            <p class="text-white  md:w-[536px] text-start font-[Nunito Sans] text-[14px] font-[400] ">We are
+                excited by our
+                remarkable expansion into new frontiers. Starting out as a small brand in South Africa and now
+                having a stronghold through West Africa. This bold steps are a testament to our unwavering
+                commitment to growth and excellence. <br><br>
+
+                Join Forces with Us for Media Excellence.<br>
+
+              <a href="services.html">  <span class="text-white  font-[Nunito-Sans] text-[12px] md:text-[17px] font-[800] underline "> Click here</span></a>
+            </p>
+
+
+        </div>
+
+
+
+    </div>
+
+
+    </div>
+
+    <div class="hidden opacity-43 fixed inset-0 z-40 bg-black" id="modal-id-backdrop"></div>
+    <script type="text/javascript">
+        function toggleSlide() {
+            var slider = document.getElementById("slide-1");
+            var slider2 = document.getElementById("slide-2");
+            var text = document.getElementById("text-1");
+            var text2 = document.getElementById("text-2");
+
+
+            text.classList.toggle("hidden");
+            text.classList.toggle("flex");
+            text2.classList.toggle("hidden");
+            text2.classList.toggle("flex");
+            slider.classList.toggle("hidden");
+            slider.classList.toggle("flex");
+            slider2.classList.toggle("flex");
+            slider2.classList.toggle("hidden");
+        }
+
+        function toggleSlide2() {
+            var sliderm = document.getElementById("slide-1m");
+            var slider2m = document.getElementById("slide-2m");
+            var textm = document.getElementById("text-1m");
+            var text2m = document.getElementById("text-2m");
+
+
+            textm.classList.toggle("hidden");
+            textm.classList.toggle("flex");
+            text2m.classList.toggle("hidden");
+            text2m.classList.toggle("flex");
+            sliderm.classList.toggle("hidden");
+            sliderm.classList.toggle("flex");
+            slider2m.classList.toggle("flex");
+            slider2m.classList.toggle("hidden");
+        }
+        function toggleModal() {
+            var modal = document.getElementById("modal-id");
+            var backdrop = document.getElementById("modal-id-backdrop");
+
+            modal.classList.toggle("hidden");
+            modal.classList.toggle("flex");
+            backdrop.classList.toggle("hidden");
+            backdrop.classList.toggle("flex");
+        }
+    </script>
+</body>
+
+</html>

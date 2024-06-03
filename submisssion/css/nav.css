@@ -1,0 +1,138 @@
+div.nav {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
+    z-index: 1000;
+    transition: top 0.3s ease; /* Add a smooth transition effect */
+    border: 1px solid black;
+}
+
+div.nav-two {
+    display: none;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
+    z-index: 1000;
+    transition: top 0.3s ease; /* Add a smooth transition effect */
+}
+
+div.nav div.box-only {
+    display: flex;
+}
+
+div.nav div.box-only div.box-one {
+    width: 25%;
+}
+
+div.nav div.box-only div.box-two {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+div.nav div.box-only div.box-two a {
+    text-decoration: none;
+    color: #3D3A38;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    /* margin-right: 10px; */
+}
+
+div.nav div.box-only div.box-two a span.donate {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    background-color: #0B811E;
+    color: white;
+}
+
+
+div.nav div.box-only div.box-two a span.tracker {
+    color : #041C71;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #041C71;
+}
+
+
+
+
+/* second div */
+div.nav-two div.box-only {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.nav-two div.box-only div.box-two {
+    color: black;
+}
+
+div.nav-two div.box-only div.box-two span {
+    font-size: 30px;
+}
+
+div.nav-two div.list-down {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+div.nav-two div.list-down div.drop-only {
+    margin-bottom: 20px;
+}
+
+div.nav-two div.list-down div.drop-only a {
+    text-decoration: none;
+    color: #3D3A38;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin-right: 20px;
+}
+
+div.nav-two div.list-down div.drop-only a.tracker {
+    color : #041C71;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #041C71;
+}
+
+div.nav-two #nav-menu {
+    display: none;
+}
+
+
+
+@media (max-width: 1202px) {
+
+    div.nav {
+        display: block;
+    }
+
+    div.nav-two {
+        display: none;
+    }
+
+    div.nav div.box-only div.box-two a span.tracker {
+        color : #17D340;
+        border-bottom: 1px solid #17D340;
+    }
+
+}
+
+@media (max-width: 768px) {
+    div.nav-two div.box-only div.box-one img {
+        width: 150px;
+    }
+}

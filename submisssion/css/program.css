@@ -1,0 +1,363 @@
+/* first second section */
+div.first-section {
+    background-image: url('../asset/about-second.png'), url('../asset/program-one.png');
+    height: 335px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    margin-top: 100px;
+}
+
+div.first-section div.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+div.first-section div.content span.span-one {
+    font-family: Nunito;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: -0.01em;
+    color: #17D340;
+}
+
+div.first-section div.content span.span-two {
+    font-family: Nunito;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: -0.01em;
+    color:#FFFFFF;
+}
+
+/* second section */
+div.second-section {
+    margin-top: 80px;
+}
+
+div.second-section p.bata {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #17D340;
+    margin-bottom: 30px;
+}
+
+div.second-section div.box-one div.image img {
+    width: 100%;
+}
+
+div.second-section div.box-one p.one {
+    font-family: Nunito;
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #041C71;
+    margin-top: 50px;
+}
+
+div.second-section div.box-one p.two {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+div.second-section div.box-one p.three {
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: #041C71;
+}
+
+div.second-section div.box-one p.three a {
+    text-decoration: none;
+    color: #0B811E;
+}
+
+div.second-section div.box-one p.three a:hover {
+    border-bottom: 1px solid #0B811E;
+}
+
+/* third section */
+div.third-section {
+    margin-top: 80px;
+    background-color: #F3F9F4;
+}
+
+div.third-section p.bata {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #17D340;
+}
+
+div.third-section p.bete {
+    font-family: Nunito;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 57px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #041C71;
+    margin-bottom: 30px;
+}
+
+div.third-section div.box-one div.image img {
+    width: 100%;
+}
+
+div.third-section div.box-one p.one {
+    font-family: Nunito;
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #041C71;
+    margin-top: 50px;
+}
+
+div.third-section div.box-one p.two {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+div.third-section div.box-one p.three {
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color:#0B811E;
+}
+
+div.third-section div.box-one p.three a {
+    text-decoration: none;
+    color:#0B811E;
+}
+
+div.third-section div.box-one p.three a:hover {
+    border-bottom: 1px solid #0B811E;
+}
+
+
+div.fourth-section p.bata {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #17D340;
+}
+
+div.fourth-section p.bete {
+    font-family: Nunito;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 57px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #041C71;
+    margin-bottom: 30px;
+}
+
+div.fourth-section div.box-one p.one {
+    font-family: Nunito;
+    font-size: 41px;
+    font-weight: 800;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#041C71;
+}
+
+div.fourth-section div.box-one p.one span {
+    color: #17D340;
+}
+
+div.fourth-section div.box-one p.two {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+div.fourth-section div.box-one p.three {
+    font-family: Nunito;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#041C71;
+    margin-bottom: 0px;
+}
+
+div.fourth-section div.box-one p.four {
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+div.fourth-section div.image img {
+    width: 100%;
+}
+
+/* fifth section */
+div.fifth-section {
+    margin-bottom: 100px;
+}
+
+div.fifth-section div.content p.one {
+    font-family: Nunito;
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #041C71;
+}
+
+div.fifth-section div.content p.two {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+@media (max-width: 992px) {
+    
+    div.first-section div.content span.span-two {
+        font-size: 35px;
+    }
+
+    div.first-section {
+        margin-top: 80px;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+    div.first-section div.content span.span-one {
+        font-size: 25px;
+    }
+    
+    div.first-section div.content span.span-two {
+        font-size: 30px;
+    }
+
+    div.third-section p.bete {
+        font-size: 30px;
+    }
+
+    div.fourth-section p.bete {
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    div.fourth-section div.box-one p.one {
+        font-size: 30px;
+    }
+
+    div.fourth-section div.box-one p.two {
+        font-size: 20px;
+    }
+
+    div.fourth-section div.box-one p.four {
+        font-size: 20px;
+    }
+
+    div.fifth-section div.content p.one {
+        font-size: 30px;
+    }
+
+    div.fifth-section div.content p.two {
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width: 496px) {
+    
+    div.first-section div.content span.span-two {
+        line-height: 46px;
+    }
+
+    div.first-section {
+        background-position: left;
+    }
+}
+
+
+@media (max-width: 425px) {
+    div.first-section div.content span.span-one {
+        font-size: 18px;
+    }
+    
+    div.first-section div.content span.span-two {
+        font-size: 20px;
+    }
+
+    div.third-section p.bete {
+        font-size: 20px;
+    }
+
+    div.fourth-section p.bete {
+        font-size: 25px;
+    }
+
+    div.fourth-section div.box-one p.one {
+        font-size: 20px;
+    }
+
+    div.fourth-section div.box-one p.two {
+        font-size: 18px;
+    }
+
+    div.fourth-section div.box-one p.four {
+        font-size: 18px;
+    }
+
+    div.fifth-section div.content p.one {
+        font-size: 20px;
+    }
+
+    div.fifth-section div.content p.two {
+        font-size: 18px;
+    }
+}

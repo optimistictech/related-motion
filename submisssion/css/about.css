@@ -1,0 +1,571 @@
+/* first second section */
+div.first-section {
+    background-image: url('../asset/about-second.png'), url('../asset/about-first.png');
+    height: 335px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    margin-top: 100px;
+}
+
+div.first-section div.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+div.first-section div.content span.span-one {
+    font-family: Nunito;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: -0.01em;
+    color: #17D340;
+}
+
+div.first-section div.content span.span-two {
+    font-family: Nunito;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: -0.01em;
+    color:#FFFFFF;
+}
+
+
+/* second section */
+div.second-section p.who {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #0B811E;
+}
+
+div.second-section p.related {
+    font-family: Nunito;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    color: #041C71;
+}
+
+div.second-section p.related span {
+    color: #0B811E;
+}
+
+div.second-section div.box-one p.one {
+
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+div.second-section div.box-one p.two {
+
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+div.second-section div.image img {
+    width: 100%;
+}
+
+/* third section */
+div.third-section {
+    background-color: #F3F9F4;
+}
+
+div.third-section div.image img {
+    width: 100%;
+}
+
+div.third-section div.box-one p.one {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+div.third-section div.box-one p.two {
+    font-family: Nunito;
+    font-size: 33px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #041C71;
+}
+
+div.third-section div.box-one p.three {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+/* fourth section */
+div.fourth-section {
+    /* background-color: #F3F9F4; */
+}
+
+div.fourth-section div.image img {
+    width: 100%;
+}
+
+div.fourth-section div.box-one p.one {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+div.fourth-section div.box-one p.two {
+    font-family: Nunito;
+    font-size: 33px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #041C71;
+}
+
+/* fifth section */
+div.fifth-section {
+    background-color: #F3F9F4;
+}
+
+div.fifth-section p.our {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#0B811E;
+}
+
+div.fifth-section p.team {
+    font-family: Nunito;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #041C71;
+}
+
+div.fifth-section div.image img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+div.fifth-section div.image p.one {
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: Nunito;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+}
+
+div.fifth-section div.image p.two {
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    color: #0B811E;
+}
+
+/* Sixth section */
+div.sixth-section {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+div.sixth-section p.txt-one {
+    font-family: Futura;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0B811E;
+}
+
+div.sixth-section p.txt-two {
+    font-family: Nunito;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #041C71;
+}
+
+div.sixth-section div.box-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.sixth-section div.box-one img.image-one {
+    width: 13%;
+    height: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+div.sixth-section div.box-one img.image-two {
+    width: 25%;
+    height: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* seveth section */
+div.seveth-section {
+    background-color: #F3F9F4;
+}
+
+div.seveth-section p.one {
+    font-family: Nunito;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#041C71;
+    margin-bottom: 0px;
+}
+
+div.seveth-section p.two {
+    font-family: Nunito;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#041C71;
+    margin-bottom: 30px;
+}
+
+div.seveth-section div.box-one {
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+}
+
+div.seveth-section div.box-two {
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+
+div.seveth-section div.box-one a {
+    padding-top: 11px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    background-color: #041C71;;
+}
+
+
+div.seveth-section div.box-two a {
+    padding-top: 11px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    background-color: #0B811E;
+}
+
+
+
+@media (max-width: 990px) {
+    div.seveth-section div.box-one {
+        justify-content: center;
+    }
+
+    div.seveth-section div.box-two {
+        justify-content: center;
+    }
+  
+}
+
+@media (max-width: 992px) {
+    
+    div.first-section div.content span.span-two {
+        font-size: 35px;
+    }
+
+    
+    div.first-section {
+        margin-top: 80px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    div.first-section div.content span.span-one {
+        font-size: 25px;
+    }
+    
+    div.first-section div.content span.span-two {
+        font-size: 30px;
+    }
+    
+    div.second-section p.related {
+        font-size: 30px;
+    }
+
+    div.sixth-section p.txt-two {
+        font-size: 30px;
+    }
+
+    div.second-section div.box-one p.one {
+        font-size: 20px;
+    }
+
+    div.second-section div.box-one p.two {
+        font-size: 20px;
+    }
+
+    div.third-section div.box-one p.one {
+        font-size: 20px;
+    }
+
+    
+    div.third-section div.box-one p.two {
+        font-size: 30px;
+    }
+
+    div.third-section div.box-one p.three {
+        font-size: 20px;
+    }
+
+    div.fourth-section div.box-one p.one {
+        font-size: 20px;
+    }
+
+    div.fourth-section div.box-one p.two {
+        font-size: 30px;
+    }
+
+    div.fifth-section p.team {
+        font-size: 30px;
+    }
+
+    div.sixth-section p.txt-two {
+        font-size: 30px;
+    }
+
+    div.seveth-section p.one {
+        font-size: 30px;
+    }
+
+    div.seveth-section p.two {
+        font-size: 30px;
+    }
+
+    div.sixth-section p.txt-two {
+        font-size: 30px;
+    }
+
+    div.fifth-section div.image {
+        text-align: center;
+    }
+
+    div.fifth-section div.image img {
+        width:80%;
+    }
+
+    div.seveth-section p.one {
+        font-size: 30px;
+    }
+
+    div.seveth-section p.two {
+        font-size: 30px;
+    }
+
+    div.seveth-section div.box-one a {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    div.seveth-section div.box-two a {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    
+}
+
+
+@media (max-width: 501px) {
+    div.sixth-section div.box-one {
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    div.sixth-section div.box-one img.image-two {
+        width: 50%;
+        margin: 0px auto;
+    }
+
+    div.sixth-section div.box-one img.image-one {
+        width: 50%;
+        margin: 0px auto;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 496px) {
+    
+    div.first-section div.content span.span-two {
+        line-height: 46px;
+    }
+
+    div.second-section p.related {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+}
+
+
+@media (max-width: 425px) {
+    div.first-section div.content span.span-one {
+        font-size: 25px;
+    }
+    
+    div.first-section div.content span.span-two {
+        font-size: 25px;
+    }
+    
+    div.second-section p.related {
+        font-size: 25px;
+    }
+
+    div.sixth-section p.txt-two {
+        font-size: 25px;
+    }
+
+    div.second-section div.box-one p.one {
+        font-size: 18px;
+    }
+
+    div.second-section div.box-one p.two {
+        font-size: 18px;
+    }
+
+    div.third-section div.box-one p.one {
+        font-size: 18px;
+    }
+
+    
+    div.third-section div.box-one p.two {
+        font-size: 25px;
+    }
+
+    div.third-section div.box-one p.three {
+        font-size: 18px;
+    }
+
+    div.fourth-section div.box-one p.one {
+        font-size: 18px;
+    }
+
+    div.fourth-section div.box-one p.two {
+        font-size: 25px;
+    }
+
+    div.fifth-section p.team {
+        font-size: 25px;
+    }
+
+    div.sixth-section p.txt-two {
+        font-size: 25px;
+    }
+
+    div.seveth-section p.one {
+        font-size: 25px;
+    }
+
+    div.seveth-section p.two {
+        font-size: 25px;
+    }
+
+    div.fifth-section div.image {
+        margin: 0px auto;
+        width: 100%;
+    }
+
+    div.sixth-section p.txt-two {
+        font-size: 25px;
+    }
+
+    div.seveth-section p.one {
+        font-size: 25px;
+    }
+
+    div.seveth-section p.two {
+        font-size: 25px;
+    }
+
+    div.seveth-section div.box-one a {
+        font-size: 18px;
+    }
+
+    div.seveth-section div.box-two a {
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 375) {
+    div.sixth-section div.box-one img.image-two {
+        width: 40%;
+    }
+
+    div.sixth-section div.box-one img.image-one {
+        width: 40%;
+    }
+}

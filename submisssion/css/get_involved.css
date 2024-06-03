@@ -1,0 +1,457 @@
+/* first second section */
+div.first-section {
+    background-image: url('../asset/about-second.png'), url('../asset/get-one.png');
+    height: 335px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-top: 150px;
+    margin-top: 80px; */
+    padding-top: 120px;
+    margin-top: 100px;
+}
+
+div.first-section div.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+div.first-section div.content span.span-one {
+    font-family: Nunito;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: -0.01em;
+    color: #17D340;
+}
+
+div.first-section div.content span.span-two {
+    font-family: Nunito;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: -0.01em;
+    color:#FFFFFF;
+}
+
+
+/* second section */
+div.second-section {
+    margin-top: 100px;
+}
+
+div.second-section div.box-two img {
+    width: 100%;
+}
+
+div.second-section div.box-one p.one {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+div.second-section div.box-one p.two {
+    font-family: Nunito;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+div.second-section div.box-one p.two span {
+    color: #0B811E;
+}
+
+div.second-section div.box-one p.three {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+/* third section */
+div.third-section {
+    margin-top: 100px;
+}
+
+div.third-section div.box-one div.clone-one {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F3F9F4;
+}
+
+div.third-section div.box-one p.one {
+    text-align: center;
+    font-family: Nunito;
+    font-size: 31px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: -0.01em;
+    color: #041C71;
+}
+
+div.third-section div.box-one div.clone-one img {
+    width: 5%;
+}
+
+div.third-section div.box-one div.clone-one p.text-one {
+    margin-top: 20px;
+    font-family: Nunito;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #041C71;
+
+}
+
+/* fourth section */
+div.fourth-section {
+    margin-top: 100px;
+}
+
+div.fourth-section p.jo {
+    text-align: center;
+    font-family: Nunito;
+    font-size: 31px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: -0.01em;
+    color: #041C71;
+}
+
+div.fourth-section div.box-one {
+    background-color: #F3F9F4;
+    border-radius: 10px;
+}
+
+div.fourth-section div.box-one div.image img {
+    width: 20%;
+}
+
+div.fourth-section div.box-one p.one {
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #0B811E;
+}
+
+
+div.fourth-section div.box-one p.two {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+/* fifth section */
+div.fifth-section {
+    margin-top: 100px;
+}
+
+div.fifth-section div.content {
+    text-align: center;
+}
+
+div.fifth-section div.content p.one {
+    font-family: Nunito;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #041C71;
+}
+
+div.fifth-section div.content p.two {
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+/* sixth section */
+div.sixth-section {
+    background-color: #F3F9F4;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+
+div.sixth-section div.box-one p.one {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #041C71;
+    margin-bottom: 7px;
+    margin-top: 20px;
+}
+
+div.sixth-section div.box-one input {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    outline: none;
+    border: 0.5px solid #0B811E;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+    border-radius: 5px;
+}
+
+div.sixth-section form div.button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+div.sixth-section form div.button button {
+    outline: none;
+    border: none;
+    background-color: #0B811E;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 30px;
+    font-family: Nunito;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+
+}
+
+/* seventh section */
+
+div.seventh-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+div.seventh-section p.supp {
+    font-family: Nunito;
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #041C71;
+}
+
+div.seventh-section div.box-one p.one {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+}
+
+div.seventh-section div.box-two {
+    text-align: center;
+    height: 100px;
+    display: flex;
+    border-radius: 30px;
+    background-color: #F3F9F4;
+}
+
+
+div.seventh-section div.box-two a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #0B811E;
+    font-family: Nunito;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* eight section */
+div.eight-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F3F9F4;
+}
+div.eight-section div.content p.one {
+    font-family: Nunito;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #041C71;
+}
+
+@media (max-width: 1204px) {
+
+    div.third-section div.box-one div.clone-one img {
+        text-align: center;
+        width: 10%;
+        margin: 0px auto;
+    }
+
+    div.third-section div.box-one div.clone-one {
+        justify-content: initial;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    
+    div.first-section div.content span.span-two {
+        font-size: 35px;
+    }
+
+    div.first-section {
+        margin-top: 80px;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+    div.first-section div.content span.span-one {
+        font-size: 25px;
+    }
+    
+
+    div.first-section div.content span.span-two {
+        font-size: 30px;
+    }
+
+
+    div.second-section div.box-one p.one {
+        font-size: 21px;
+    }
+    
+    div.second-section div.box-one p.two {
+        font-size: 27px;
+    }
+    
+    div.second-section div.box-one p.three {
+        font-size: 21px;
+    }
+
+    div.fifth-section div.content p.one {
+        font-size: 30px;
+    }
+
+    div.seventh-section p.supp {
+        font-size: 30px;
+    }
+
+    div.seventh-section div.box-one p.one {
+        font-size: 22px;
+    }
+
+    div.eight-section div.content p.one {
+        font-family: Nunito;
+        font-size: 28px;
+    }
+
+    div.button button {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 20px;
+    }
+
+    div.sixth-section form div.button button {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 20px;
+    }
+
+    div.seventh-section div.box-two {
+        height: 60px;
+    }
+
+    div.seventh-section div.box-two a {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    
+
+}
+
+
+
+@media (max-width: 496px) {
+    
+    div.first-section div.content span.span-two {
+        line-height: 46px;
+    }
+
+    
+    div.second-section div.box-one p.one {
+        font-size: 18px;
+    }
+    
+    div.second-section div.box-one p.two {
+        font-size: 20px;
+    }
+    
+    div.second-section div.box-one p.three {
+        font-size: 18px;
+    }
+
+    div.third-section div.box-one p.one {
+        font-size: 20px;
+    }
+
+
+    div.fourth-section p.jo {
+        font-size: 20px;
+    }
+    
+    div.third-section div.box-one div.clone-one img {
+        width: 20%;
+    }
+
+    div.fifth-section div.content p.one {
+        font-size: 25px;
+    }
+
+
+    div.seventh-section p.supp {
+        font-size: 27px;
+    }
+
+    div.seventh-section div.box-one p.one {
+        font-size: 20px;
+    }
+
+    div.eight-section div.content p.one {
+        font-size: 20px;
+    }
+    
+    
+}
